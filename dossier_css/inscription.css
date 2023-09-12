@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+.container{
+    width: 300px;
+    height: 600px;
+    background-color: #5C40B1;
+  
+   
+    margin: 0 auto;
+    
+   margin-top: 100px;
+   border-radius: 10px;
+   
+   padding: 30px;
+}
+
+
+
+.container h3{
+    margin: 5px;
+    padding: 10px;
+    color: white;
+}
+.container .over p{
+    color: white;
+    margin: 5px;
+}
+ 
+.container .bat input{
+   
+    width: 200px;
+    height: 30px;
+     
+    background-color: 0%;
+   
+ 
+ margin-top: 5px;
+  margin: 5px;
+   
+} 
+
+.classe .a2{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+   
+    background: #B594FD;
+   display: flex;
+   margin-left: 50px;
+   justify-content: center;
+   align-items: center;
+  margin-top: 20px;
+  text-decoration: none; 
+  color: white;
+  
+}
+span{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.image{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+   
+}
