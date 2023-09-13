@@ -1,0 +1,114 @@
+/* * ::before, :after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.open{
+    width: 100%;
+    height: 70px;
+    background-color: #1B0E41;
+    position: fixed;
+    border: 1px solid #000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.open .premiere-nav {
+    display: flex;
+    
+}
+
+.open li{
+    list-style: none;
+    color: white;
+   
+}
+.premiere-nav li a {
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+  
+
+}
+
+.deuxieme-nav{
+   float: right;
+    justify-content: right;
+    
+} */
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+ }
+ body{
+    width: 100%;
+ }
+ 
+ nav ul {
+    width: 100%;
+    height: 70px;
+    background-color: #1B0E41;
+    position: fixed;
+    border: 1px solid #000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   list-style: none;
+   display: flex;
+   color: white;
+   line-height: 50px;
+ }
+span{
+    font-size: 25px;
+   
+}
+.liste-nav{
+    
+    margin: 0 30px;
+}
+.liste-nav a{
+    text-decoration: none;
+    color: white;
+   
+ 
+}
+
+.premiere-nav.containt .rech{
+  width: 50px;
+  height: 30px;
+  background-color: #B594FD;
+  border-radius:0px 5px 5px 0px;
+  
+}
+.containt .rech input{
+    width: 150px;
+    height: 42px;
+    border: none;
+  border-radius: 5px 0px 0px 5px;
+    background: #fff;
+    outline: none;
+    
+}
+.containt .rech img{
+    width: 30px;
+    height: 30px;
+}
+
+.containt {
+    margin-left: auto;
+    margin-right: 50px;
+    margin-right: 100px;
+}
+
+
+.containt button{
+    width: 150px;
+    height: 42px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    background-color: #B594FD;
+    color: #fff;
+    border: none;
+     
+}
+
