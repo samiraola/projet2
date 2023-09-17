@@ -84,9 +84,9 @@ margin-right: 10px;
     background-color: #B594FD;
     color: #fff;
     border: none;
-  
-     
+   
 }
+
 /*section projet*/
 
 .espace_projet{
@@ -141,7 +141,42 @@ fieldset{
    
 }
 .crainte{
+    width: 400px;
+    height: 250px;
+    background-color: #B594FD;
+    float: right;
+   margin-top: 150px;
+   border-radius: 5px;
+  
+}
+.craint{
+    text-align: justify;
+    justify-content: center;
+    padding: 10px;
+}
+.craint  .image{
+   display: block;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+.image {
+   
     
+}
+
+.crainte p {
+   
+    font-size: 16px;
+   
+   
+}
+
+.crainte span{
+    font-size: 16px;
+   
+   
 }
 .game label{
     margin-left: 4px;
