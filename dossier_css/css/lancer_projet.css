@@ -91,6 +91,7 @@ margin-right: 10px;
 
 .espace_projet{
     margin-top: 100px;
+
 }
 
 .content {
@@ -107,7 +108,7 @@ margin-right: 10px;
 .over{
     width: 500px;
     height: 600px;
-    background-color: #B594FD;
+    background-color: #b594fd60;
     margin-left: 300px;
    margin-top: 20px;
    padding: 20px;
@@ -135,7 +136,7 @@ margin-right: 10px;
 fieldset{
     width: 300px;
     height: 60px;
-    background-color: #B594FD;
+    background-color: #b594fd60;
     border: 1px solid #fff;
     margin-left: 40px;
    
@@ -143,16 +144,18 @@ fieldset{
 .crainte{
     width: 400px;
     height: 250px;
-    background-color: #B594FD;
+    background-color: #b594fd60;
     float: right;
+    margin-right: 800px;
    margin-top: 150px;
    border-radius: 5px;
+  
   
 }
 .craint{
     text-align: justify;
     justify-content: center;
-    padding: 10px;
+   
 }
 .craint  .image{
    display: block;
@@ -193,7 +196,7 @@ fieldset{
 .grire .txt{
     width: 150px;
     height: 30px;
-    background-color: #B594FD;
+    background-color: #b594fd60;
     border: 1px solid #fff;
     margin-left: 80px;
     border-radius: 5px;
