@@ -6,14 +6,13 @@
 }
 body{
     width: 100vw;
-    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 
 nav ul {
-    padding: 3px 100px;
-    width: fit-content;
-    height: fit-content;
+    padding: 5px 100px;
+    width: 100vw;
+    height: 70px;
     background-color: #1B0E41;
     position: fixed;
     border: 1px solid #000;
@@ -50,7 +49,7 @@ span{
 margin-right: 10px;
 }
 .rech input{
-    width: 130px;
+    width: 150px;
     height: 30px;
     border: none;
     border-radius: 5px 0px 0px 5px;
@@ -68,66 +67,27 @@ margin-right: 10px;
     height: 30px;
     background-color: #B594FD;
     position: absolute;
-    top: 8px;
-   right: -20px;
+    top: 4px;
+   right: 0px;
 }
 
 .containt{
   
 }
 .containt button{
-    width: fit-content;
-    height: fit-content;
-    
+       width: 130px;
+    height: 30px;
+    border-radius: 5px;
     outline: none;
     cursor: pointer;
     background-color: #B594FD;
     color: #fff;
     border: none; 
-    align-items: center;
-    background-clip: padding-box;
-    background-color: #000;
-    border: 1px solid transparent;
-    border-radius: .25rem;
-    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-    color: #fff;
-    cursor: pointer;
-    display: inline-flex;
-    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    justify-content: center;
-    line-height: 1.25;
-    margin: 0;
-    min-height: 3rem;
-    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
-    position: relative;
-    text-decoration: none;
-    transition: all 250ms;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    vertical-align: baseline;
-    width: auto;
-    margin-left: 10px;
+    
 
 }
-button:hover,
-button:focus {
-  background-color: #B594FD;
-  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-}
-
-button:hover {
-  transform: translateY(-1px);
-}
-
-button:active {
-  background-color: #B594FD;
-  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
-  transform: translateY(0);
-}
-
+  
+ 
   
 /*section projet*/
 
@@ -286,12 +246,26 @@ fieldset{
     transform: translateY(0);
   }
   
+/* section */
 
-    /* width: 150px;
-    height: 30px;
-    background-color: #b594fd60;
-    border: 1px solid #fff;
-    margin-left: 80px;
-    border-radius: 5px;
-    cursor: pointer;
-} */
+.ouvert{
+    width: 100vw;
+    height: 300px;
+    background-color: #1B0E41;
+}
+.ouvert span{
+    width: 350px;
+    height: 70px;
+    color: #fff;
+    display: block;
+    text-align: left;
+   padding-top: 85px;
+}
+.ouvert .vate{
+    width: 20%;
+    height: 1px;
+    background-color: #fff;
+   transform: rotate(90deg);
+   margin-left: 300px;
+   margin-top: 70px;
+}
