@@ -5,24 +5,25 @@
     box-sizing: border-box;
 }
 body{
-    width: 100%;
+    width: 100vw;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 
 nav ul {
-    padding: 5px 300px;
-    width: 100%;
+    padding: 5px 100px;
+    width: 100vw;
     height: 70px;
     background-color: #1B0E41;
     position: fixed;
     border: 1px solid #000;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
    list-style: none;
-   display: flex;
+  display: flex;
    color: white;
    line-height: 50px;
 }
-.premiere-nav :nth-child(6){
+.premiere-nav :nth-child(5){
     margin-left: auto;
 }
 span{
@@ -32,7 +33,7 @@ span{
 }
 .liste-nav{
     
-    margin: 0 20px;
+    margin: 0 20px 20px;
 }
 .liste-nav a{
     text-decoration: none;
@@ -70,86 +71,381 @@ margin-right: 10px;
     top: 4px;
    right: 0px;
 }
-
-.containt{
-  
-}
 .containt button{
     width: 130px;
-    height: 30px;
-    border-radius: 30px;
-    outline: none;
-    cursor: pointer;
-    background-color: #B594FD;
-    color: #fff;
-    border: none;
-  
-     
+ height: 30px;
+ border-radius: 5px;
+ outline: none;
+ cursor: pointer;
+ background-color: #B594FD;
+ color: #fff;
+ border: none; 
+ 
+
 }
+
+#menu-accordeon {
+    
+    padding:0;
+    margin:0;
+  }
+  #menu-accordeon ul {
+    padding:0;
+    margin:0;
+    list-style:none;
+   display: block;
+   
+  }
+ 
+  #menu-accordeon li {
+    
+     background-image:-webkit-linear-gradient(top, #000 100%);
+     background-image: linear-gradient(to bottom, #000 100%);
+    background-color: #1B0E41;
+     margin-bottom:20px;
+     
+  }
+  #menu-accordeon li li {
+   
+     margin:0
+  }
+  
+  #menu-accordeon a {
+   
+   
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 0;
+    font-size:1.2em
+  }
+  
+  #menu-accordeon li li a{
+  
+   margin-left: 12px;
+  }
+  #menu-accordeon ul li a, #menu-accordeon li:hover li a {
+   
+    font-size:1em
+  }
+  #menu-accordeon li li:hover {
+   
+     background: #B594FD;
+  }
+  #menu-accordeon ul li:last-child {
+     border-radius: 0 0 6px 6px;
+     border:none;
+  }
+  #menu-accordeon li:hover li {
+    max-height: 15em;
+  }
+  
 
 /* accueil*/
 .accueil{
-    width: 50%;
-    height: 600px;
-   
-  position: relative;
-    top: 70px;
- z-index: -1;
- background-image: url(/dossier_css/images/Demarrer-son-business-quels-outils-numeriques--TW.jpeg);
+    width: 100vw;
+    height: 700px;
+  
+ background-image: url(/dossier_css/images/krakenimages-376KN_ISplE-unsplash.jpg);
  background-size: cover;
  background-repeat: no-repeat;
  margin: 0 auto;
+
 }
+
 .accueil h1 {
     position: absolute;
    margin: 50px 30px ;
-
+  top: 300px;
+  z-index: -1;
 }
 
 .accueil h4 {
+   
     position: absolute;
-    margin: 150px 0px 0px 350px;
+    margin: 200px 0px 0px 30px;
     font-size: 20px;
+   
 }
 .rectagle1{
-    width: 50%;
+    width: 100vw;
     height: 70px;
     background-color: #1B0E41;
     justify-content: center;
     margin: 0 auto;
+    text-align: center;
 }
 .rectagle1 span{
     color: #fff;
-    margin: 50px 50px ;
+   
     line-height: 70px;
 }
-.haut{
-    display: flex;
-    margin: 50px 500px ;
-    
-}
 
-.haut .rectangle{
-    width: 300px;
-    height: 200px;
-    background-color: #B594FD;
-    margin-left: 10px;
-    border-radius: 20px;
-    
-}
-.haut .rectangle p{
-    text-align: justify;
-   padding: 10px;
-    
-}
 
-.haut .rectangle button{
-    width: 150px;
-    height: 40px;
-    cursor: pointer;
-    margin: 70px 70px;
-    border-radius: 10px;
-    border: 1px solid #fff;
-    background-color: #B594FD;
+.textes {
+  
+  width: auto;
+  height: auto;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.textes span{
+   margin: 10px;
+  
    
 }
+.textes span a{
+   text-decoration: none;
+    color: #000;
+    font-size: 20px;
+   
+}
+
+.textes span a:hover{
+ text-decoration: none;
+border-bottom: 5px solid #B594FD;
+
+}
+
+
+
+.carre {
+    display: flex;
+    padding: 5px 100px;
+    margin-top: 70px;
+}
+.carre .care{
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #1B0E41;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.care .image{
+    width: 100%;
+    height: 60%;
+   background-image: url(/dossier_css/images/Demarrer-son-business-quels-outils-numeriques--TW.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.care .text{
+    height: 30%;
+    color: #fff;
+}
+
+.carre2 {
+    display: flex;
+    padding: 5px 100px;
+    margin-top: 70px;
+}
+.carre2 .care{
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #1B0E41;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.care2 .image{
+    width: 100%;
+    height: 60%;
+   background-image: url(/dossier_css/images/Demarrer-son-business-quels-outils-numeriques--TW.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.care2 .text{
+    height: 30%;
+}
+
+.carre3 {
+    display: flex;
+    padding: 5px 100px;
+    margin-top: 70px;
+}
+.carre3 .care{
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #1B0E41;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.care3 .image{
+    width: 100%;
+    height: 60%;
+   background-image: url(/dossier_css/images/Demarrer-son-business-quels-outils-numeriques--TW.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.care3 .text{
+    height: 30%;
+}
+/* rondelle */
+h1{
+    margin-top: 100px;
+    padding: 5px 100px;
+}
+
+.rond{
+    margin-top: 50px;
+    padding: 5px 100px;
+  width: 100vw;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+.rond div {
+    width: 150px;
+    height: 40px;
+   border-radius: 30px;
+   text-align: center;
+   padding-top: 8px;
+    background-color: #1B0E41;
+  
+   
+}
+.rond div a{
+    text-decoration: none;
+   color: #fff;
+ font-size: 0.8rem;
+ 
+}
+.rond div {
+    margin: 10px;
+    
+}
+/* section nav */
+.nav{
+    width: 100vw;
+    height: 400px;
+   margin: 20px;
+   padding: 5px 100px;
+   background-color: #00000060;
+   border-radius: 5px;
+   box-shadow:  rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; 
+    margin: 0 auto;
+    color: white;
+    
+}
+
+.images{
+    display: flex;
+   
+} 
+.images img{
+    border-radius: 30px;
+}
+.images p{
+    margin-top: 20px;
+   margin-left: 20px;
+}
+.images span{
+    margin-top: 50px;
+    margin-left: -120px;
+}
+
+.texts{
+    display: flex;
+}
+.texts img{
+    margin-top: 10px;
+    border-radius: 30px;
+}
+.texts p{
+    margin-top: 20px;
+   margin-left: 20px;
+}
+.texts span{
+    margin-top: 50px;
+    margin-left: -150px;
+}
+
+.avant_footer{
+    width: 100vw;
+    height: 500px;
+    background-color: #1B0E41;
+}
+.fouter{
+    width: 70%;
+    height: 250px;
+    background-color: #B594FD;
+    border-radius: 5px;
+    box-shadow:  rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; 
+   margin: 0 auto;
+  position: absolute;
+  margin-top: 100px;
+ margin-left: 150px;
+   
+   
+}
+
+.fouter h1{
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.fouter .peti{
+ margin-left: 150px;
+}
+.fouter input{
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 5px ;
+    background: #fff;
+    outline: none;
+    margin-left: 150px;
+}
+
+/* CSS */
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #000;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #B594FD;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #B594FD;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+

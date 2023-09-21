@@ -6,6 +6,7 @@
 }
 body{
     width: 100vw;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 
@@ -71,23 +72,64 @@ margin-right: 10px;
    right: 0px;
 }
 
-.containt{
-  
-}
-.containt button{
-       width: 130px;
-    height: 30px;
-    border-radius: 5px;
-    outline: none;
-    cursor: pointer;
-    background-color: #B594FD;
-    color: #fff;
-    border: none; 
+#menu-accordeon {
     
-
-}
-  
+    padding:0;
+    margin:0;
+  }
+  #menu-accordeon ul:hover {
+    padding:0;
+    margin:0;
+    list-style:none;
+   display: block;
+   
+  }
  
+  #menu-accordeon li {
+    
+     background-image:-webkit-linear-gradient(top, #000 100%);
+     background-image: linear-gradient(to bottom, #000 100%);
+    background-color: #1B0E41;
+     margin-bottom:20px;
+     
+  }
+  #menu-accordeon li li {
+   
+     margin:0
+  }
+  
+  #menu-accordeon a {
+   
+   
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 0;
+    font-size:1.2em
+  }
+  
+  #menu-accordeon li li a{
+  
+   margin-left: 12px;
+  }
+ 
+  #menu-accordeon ul li a, #menu-accordeon li:hover li a {
+ 
+    font-size:1em
+  }
+  #menu-accordeon li li:hover {
+   
+     background: #B594FD;
+  }
+  #menu-accordeon ul li:last-child {
+     border-radius: 0 0 6px 6px;
+     border:none;
+  }
+  #menu-accordeon li:hover li {
+    
+    max-height: 15em;
+  }
+  
+
   
 /*section projet*/
 
@@ -244,6 +286,10 @@ fieldset{
     background-color: #B594FD;
     box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
     transform: translateY(0);
+  }
+  .button-5 a{
+    text-decoration: none;
+    color: white;
   }
   
 /* section */

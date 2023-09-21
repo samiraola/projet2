@@ -6,6 +6,7 @@
 }
 body{
     width: 100vw;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 
@@ -71,21 +72,62 @@ margin-right: 10px;
    right: 0px;
 }
 
-.containt{
-  
-}
-.containt button{
-       width: 130px;
-    height: 30px;
-    border-radius: 30px;
-    outline: none;
-    cursor: pointer;
-    background-color: #B594FD;
-    color: #fff;
-    border: none; 
+#menu-accordeon {
     
-
-}
+    padding:0;
+    margin:0;
+  }
+  #menu-accordeon ul:hover {
+    padding:0;
+    margin:0;
+    list-style:none;
+   display: block;
+   
+  }
+ 
+  #menu-accordeon li {
+    
+     background-image:-webkit-linear-gradient(top, #000 100%);
+     background-image: linear-gradient(to bottom, #000 100%);
+    background-color: #1B0E41;
+     margin-bottom:20px;
+     
+  }
+  #menu-accordeon li li {
+   
+     margin:0
+  }
+  
+  #menu-accordeon a {
+   
+   
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 0;
+    font-size:1.2em
+  }
+  
+  #menu-accordeon li li a{
+  
+   margin-left: 12px;
+  }
+ 
+  #menu-accordeon ul li a, #menu-accordeon li:hover li a {
+ 
+    font-size:1em
+  }
+  #menu-accordeon li li:hover {
+   
+     background: #B594FD;
+  }
+  #menu-accordeon ul li:last-child {
+     border-radius: 0 0 6px 6px;
+     border:none;
+  }
+  #menu-accordeon li:hover li {
+    
+    max-height: 15em;
+  }
   
 
 /* accueil*/
@@ -128,22 +170,29 @@ margin-right: 10px;
     line-height: 70px;
 }
 .haut{
-    padding: 5px 100px;
+    
 }
-.haut .textes {
-    display: flex;
+
+.textes {
+  
+  width: auto;
+  height: auto;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     
 }
 .textes span{
-   text-align: justify;
-   padding: 0px 0px 100px 10px;
+   margin: 10px;
+  
    
 }
 .textes span a{
    text-decoration: none;
     color: #000;
     font-size: 20px;
-    
+   
 }
 
 .textes span a:hover{
@@ -306,7 +355,9 @@ h1{
     margin-top: 50px;
     margin-left: -150px;
 }
-
+.nav .button-5{
+    margin-top: 50px;
+}
 .avant_footer{
     width: 100vw;
     height: 500px;

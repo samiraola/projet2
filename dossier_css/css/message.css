@@ -1,0 +1,161 @@
+
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+nav ul {
+    padding: 5px 100px;
+    width: 100vw;
+    height: 70px;
+    background-color: #1B0E41;
+    position: fixed;
+    border: 1px solid #000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   list-style: none;
+  display: flex;
+   color: white;
+   line-height: 50px;
+}
+.premiere-nav :nth-child(6){
+    margin-left: auto;
+}
+span{
+    
+    font-size: 25px;
+   
+}
+.liste-nav{
+    
+    margin: 0 20px;
+}
+.liste-nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.liste-nav a:hover{
+   color: #B594FD;
+    text-decoration: underline;
+}
+
+.rech{
+  
+margin-right: 10px;
+}
+.rech input{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    background: #fff;
+    outline: none;
+   
+    
+}
+.rech .contains{
+  position: relative;
+
+}
+.rech .contains img{
+    width: 20px;
+    height: 30px;
+    background-color: #B594FD;
+    position: absolute;
+    top: 4px;
+   right: 0px;
+}
+
+#menu-accordeon {
+    
+    padding:0;
+    margin:0;
+  }
+  #menu-accordeon ul:hover {
+    padding:0;
+    margin:0;
+    list-style:none;
+   display: block;
+   
+  }
+ 
+  #menu-accordeon li {
+    
+     background-image:-webkit-linear-gradient(top, #000 100%);
+     background-image: linear-gradient(to bottom, #000 100%);
+    background-color: #1B0E41;
+     margin-bottom:20px;
+     
+  }
+  #menu-accordeon li li {
+   
+     margin:0
+  }
+  
+  #menu-accordeon a {
+   
+   
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 0;
+    font-size:1.2em
+  }
+  
+  #menu-accordeon li li a{
+  
+   margin-left: 12px;
+  }
+ 
+  #menu-accordeon ul li a, #menu-accordeon li:hover li a {
+ 
+    font-size:1em
+  }
+  #menu-accordeon li li:hover {
+   
+     background: #B594FD;
+  }
+  #menu-accordeon ul li:last-child {
+     border-radius: 0 0 6px 6px;
+     border:none;
+  }
+  #menu-accordeon li:hover li {
+    
+    max-height: 15em;
+  }
+
+.message{
+    padding-top: 60px;
+}
+
+ .content{
+    width: 100%;
+    height: 100px;
+    background-color: #B594FD;
+    
+ } 
+ .content span{
+    display: flex;
+    justify-content: center;
+    line-height: 100px;
+}
+
+.textes{
+    display: flex;
+    margin: 70px;
+}
+.textes :nth-child(2){
+    margin-left: auto;
+}
+.textes .text1 {
+    display: flex;
+  
+}
+.text1 p{
+    padding: 20px;
+}
