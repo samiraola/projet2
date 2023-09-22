@@ -72,12 +72,16 @@ margin-right: 10px;
     top: 4px;
    right: 0px;
 }
-
+.containt{
+  
+}
 #menu-accordeon {
     
     padding:0;
     margin:0;
+    
   }
+  
   #menu-accordeon ul:hover {
     padding:0;
     margin:0;
@@ -242,5 +246,10 @@ margin-right: 10px;
       .localiser{
         margin-top: 100px;
        margin-left: 400px;
+      }
+
+      .crame{
+       
+        margin-right: 400px;
       }
       
