@@ -1,4 +1,3 @@
-
 *, ::before, ::after{
     margin: 0;
     padding: 0;
@@ -50,84 +49,86 @@ span{
 margin-right: 10px;
 }
 .rech input{
-    width: 150px;
+    width: 200px;
     height: 30px;
     border: none;
-    border-radius: 5px 0px 0px 5px;
-    background: #fff;
+    border-radius: 30px;
+    background: #eeecf3;
     outline: none;
    
     
 }
-.rech .contains{
-  position: relative;
 
-}
-.rech .contains img{
+.containt{
     width: 20px;
-    height: 30px;
-    background-color: #B594FD;
-    position: absolute;
-    top: 4px;
-   right: 0px;
+
 }
 
+
+.containt #menu-accordeon li li:hover ul {
+    display: block;
+}
 #menu-accordeon {
     
     padding:0;
     margin:0;
-  }
-  #menu-accordeon ul:hover {
+   
+}
+
+.containt #menu-accordeon ul:hover {
     padding:0;
     margin:0;
     list-style:none;
    display: block;
    
-  }
- 
-  #menu-accordeon li {
+}
+
+#menu-accordeon li {
     
      background-image:-webkit-linear-gradient(top, #000 100%);
      background-image: linear-gradient(to bottom, #000 100%);
     background-color: #1B0E41;
-     margin-bottom:20px;
+    
      
-  }
-  #menu-accordeon li li {
+}
+#menu-accordeon li li {
    
      margin:0
-  }
+}
   
-  #menu-accordeon a {
+#menu-accordeon a {
    
    
     text-decoration: none;
     color: #fff;
     padding: 8px 0;
-    font-size:1.2em
-  }
+    font-size: 1em
+}
+
+#menu-accordeon li li a{
   
-  #menu-accordeon li li a{
-  
-   margin-left: 12px;
-  }
+   
+}
  
-  #menu-accordeon ul li a, #menu-accordeon li:hover li a {
- 
-    font-size:1em
+#menu-accordeon ul li a, #menu-accordeon li:hover li a {
+   
   }
-  #menu-accordeon li li:hover {
+#menu-accordeon li li:hover {
    
      background: #B594FD;
   }
+
   #menu-accordeon ul li:last-child {
      border-radius: 0 0 6px 6px;
      border:none;
   }
   #menu-accordeon li:hover li {
     
-    max-height: 15em;
+    max-height: 20em;
   }
+  
+
+ 
 
 .message{
     padding-top: 60px;

@@ -1,0 +1,137 @@
+*, ::before, ::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+nav ul {
+  padding: 5px 100px;
+  width: 100vw;
+  height: 70px;
+  background-color: #1B0E41;
+  position: fixed;
+  border: 1px solid #000;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ list-style: none;
+display: flex;
+ color: white;
+ line-height: 50px;
+}
+.premiere-nav :nth-child(6){
+  margin-left: auto;
+}
+span{
+  
+  font-size: 25px;
+ 
+}
+.liste-nav{
+  
+  margin: 0 20px;
+}
+.liste-nav a{
+  text-decoration: none;
+  color: white;
+}
+
+.liste-nav a:hover{
+ color: #B594FD;
+  text-decoration: underline;
+}
+
+.rech{
+
+margin-right: 10px;
+}
+.rech input{
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 30px;
+  background: #eeecf3;
+  outline: none;
+ 
+  
+}
+
+.containt{
+  width: 20px;
+
+}
+
+
+.containt #menu-accordeon li li:hover ul {
+  display: block;
+}
+#menu-accordeon {
+  
+  padding:0;
+  margin:0;
+ 
+}
+
+.containt #menu-accordeon ul:hover {
+  padding:0;
+  margin:0;
+  list-style:none;
+ display: block;
+ 
+}
+
+#menu-accordeon li {
+  
+   background-image:-webkit-linear-gradient(top, #000 100%);
+   background-image: linear-gradient(to bottom, #000 100%);
+  background-color: #1B0E41;
+  
+   
+}
+#menu-accordeon li li {
+ 
+   margin:0
+}
+
+#menu-accordeon a {
+ 
+ 
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 0;
+  font-size: 1em
+}
+
+#menu-accordeon li li a{
+
+ 
+}
+
+#menu-accordeon ul li a, #menu-accordeon li:hover li a {
+ 
+}
+#menu-accordeon li li:hover {
+ 
+   background: #B594FD;
+}
+
+#menu-accordeon ul li:last-child {
+   border-radius: 0 0 6px 6px;
+   border:none;
+}
+#menu-accordeon li:hover li {
+  
+  max-height: 20em;
+}
+
+
+.ouverture{
+  width: 100vw;
+  height: 500px;
+ background-image: url(../images/sigmund-f0dJjQMhfXo-unsplash.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
