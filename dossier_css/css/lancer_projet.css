@@ -186,11 +186,11 @@ fieldset{
    
 }
 .crainte{
-    width: fit-content;
-    height: fit-content;
+    width: 350px;
+    height: 300px;
     background-color: #b594fd60;
     float: right;
-    
+    margin-right: 100px;
    margin-top: 150px;
    border-radius: 5px;
   
@@ -297,20 +297,98 @@ fieldset{
     width: 100vw;
     height: 300px;
     background-color: #1B0E41;
+    display: flex;
+    margin-top: 100px;
 }
-.ouvert span{
-    width: 350px;
-    height: 70px;
+.tct span{
     color: #fff;
     display: block;
-    text-align: left;
-   padding-top: 85px;
+   padding: 80px 200px 100px 100px;
 }
 .ouvert .vate{
-    width: 20%;
+    width: 70%;
     height: 1px;
     background-color: #fff;
    transform: rotate(90deg);
-   margin-left: 300px;
-   margin-top: 70px;
+   display: flex;
+   margin-top: 150px;
+   margin-left: -300px;
+}
+.bruit h1{
+    color: white;
+    text-decoration: underline;
+ 
+ }
+.premieer{
+   display: flex;
+   width: 50%;
+}
+.premieer .padir{
+    color: #fff;
+   display: flex;
+   padding: 10px 400px 10px 10px;
+   font-size: 18px;
+   
+}
+.premieer div{
+   font-size: 18px;
+    padding-top: 20px;
+    color: white;
+}
+/* piece */
+.piece{
+    width: 100vw;
+    height: 400px;
+    background-color: #B594FD;
+  
+
+}
+
+.piet h1{
+   
+    text-align: center;
+}
+.piet .pita{
+   display: flex;
+   margin-top: 20px;
+   padding: 5px 100px;
+}
+.piet .pits{
+    width: 400px;
+    text-align: justify;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+/* fooetr */
+.foot{
+    width: 100vw;
+    height: 200px;
+    background-color: #8a898c;
+   
+   
+}
+.fat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+
+}
+.fat .imgs{
+    display: block;
+
+}
+
+
+.class button{
+    width: 130px;
+ height: 30px;
+ border-radius: 5px;
+ outline: none;
+ cursor: pointer;
+ background-color: #B594FD;
+ color: #fff;
+ border: none; 
+ 
+
 }
