@@ -28,7 +28,7 @@ nav ul {
 }
 span{
     
-    font-size: 25px;
+    font-size:1rem;
    
 }
 .liste-nav{
@@ -131,8 +131,118 @@ margin-right: 10px;
 .corps{
     padding-top: 70px;
 }
+.marges img{
+    display: flex;
+    justify-content: center;
+    margin : 0 auto;
+}
 .merde{
     width: 100vw;
-    height: 50px;
+   
     background-color: grey;
+}
+table{
+    border-collapse: collapse;
+
+}
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+}
+/* section */
+.image{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.textes{
+    display: flex;
+    justify-content: space-evenly;
+    
+   
+}
+
+.textes .txt1{
+    display: block;
+    width: 250px;
+}
+
+.textes .txt2{
+    width: 200px;
+}
+
+.textes .txt3{
+    width: 200px;
+}
+/* section */
+.ddef{
+    margin-top: 100px;
+}
+.ddef p{
+    text-decoration: underline;
+}
+
+.definition{
+    width: 400px;
+    height: 350px;
+    
+    background-color: #B594FD;
+    float: left;
+    font-size: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.definition span{
+    font-size: 0.8rem;
+    padding-top: 250px;
+
+}
+.avantage{
+    width: 400px;
+    height: 350px;
+    background-color: #B594FD;
+    float: right;
+    font-size: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.avantage span{
+    font-size: 0.8rem;
+
+}
+.perso{
+   
+    width: 400px;
+    height: 400px;
+    background-color: #B594FD;
+    float: left;
+    margin-left: 50px;
+    font-size: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.perso span{
+    font-size: 0.8rem;
+
+}
+
+.condition{
+    padding-top: 600px;
+   
+}
+.condition p{
+    text-align: center;
+}
+.condition span{
+text-align: justify;
+padding: 5px 10px 50px 130px;
+display: flex;
+justify-content: center;
+margin: 0 auto;
+}
+.condition .bonj{
+    display: block;
+}
+.condition h5{
+    text-align: center;
 }
