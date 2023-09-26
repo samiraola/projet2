@@ -105,27 +105,19 @@ margin-right: 10px;
     font-size: 1em
 }
 
-#menu-accordeon li li a{
-  
-   
-}
- 
-#menu-accordeon ul li a, #menu-accordeon li:hover li a {
-   
-  }
 #menu-accordeon li li:hover {
    
      background: #B594FD;
-  }
+}
 
-  #menu-accordeon ul li:last-child {
+#menu-accordeon ul li:last-child {
      border-radius: 0 0 6px 6px;
      border:none;
-  }
-  #menu-accordeon li:hover li {
+}
+#menu-accordeon li:hover li {
     
     max-height: 20em;
-  }
+}
   
 
  

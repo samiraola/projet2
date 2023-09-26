@@ -1,53 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mkfinance</title>
     <link rel="stylesheet" href="../dossier_css/css/pret.css">
 </head>
+
 <body>
     <section class="navigation">
         <nav>
             <div class="open">
                 <ul class="premiere-nav">
-                  
-                        <span>Mkfinances</span>
-                            <li class="liste-nav"><a href="">LANCER UN PROJET</a></li>
-                            <li class="liste-nav"><a href="">PRÊTS</a></li>
-                            <li class="liste-nav"><a href="">CONTACTEZ-NOUS</a></li>
-                            
-                 
-                        <div class="rech">
-                            <input type="search" name="" id="" placeholder="RECHERCHER ...">
-                            
-                        </div>
-                    <div class="containt">    
-                       
-                     <ul id="menu-accordeon">
-                        <li class="deroulant"><a href=""><img src="../dossier_css/images/téléchargement__1_-removebg-preview.png" width="50px" alt=""></a>
-                           
-                                <ul>
-                                    <li><a href="">profil</a></li>
+
+                    <span>Mkfinances</span>
+                    <li class="liste-nav"><a href="">LANCER UN PROJET</a></li>
+                    <li class="liste-nav"><a href="">PRÊTS</a></li>
+                    <li class="liste-nav"><a href="">CONTACTEZ-NOUS</a></li>
+
+
+                    <div class="rech">
+                        <input type="search" name="" id="" placeholder="RECHERCHER ...">
+
+                    </div>
+                    <div class="containt">
+
+                        <ul id="menu-accordeon">
+                            <li class="deroulant">
+                                <a href="">
+                                    <img src="../dossier_css/images/téléchargement__1_-removebg-preview.png"
+                                        width="50px" alt=""></a>
+
+                                <ul class="sous">
+
                                     <li><a href="">message</a></li>
-                                    <li><a href="">notification</a></li>
-                                    <li><a href="">paramtre</a></li>
-                                    <li><a href="">Deconnexion</a></li>  
+                                    <li><a href="">parametre</a></li>
+                                    <li><a href="">Deconnexion</a></li>
                                 </ul>
-                               
-                        </li>
-                        
-                     </ul>
-                        
-                
-                           
+
+                            </li>
+
+                        </ul>
+
+
+
                 </ul>
-           
-               
-            </div>  
+
+
+            </div>
         </nav>
-        
-        
+
+
     </section>
 
 
@@ -55,146 +59,237 @@
 
     <section class="corps">
         <div class="marges">
-            <img src="../dossier_css/images/accords-de-pret-emprunter-de-l-argent-a-la-banque-pret-personnel-ou-concept-de-soutien-financier-illustration-moderne-vectorielle-plate-2rfk7ya.jpeg" width="50%" height="500px" alt="">
+            <img src="../dossier_css/images/accords-de-pret-emprunter-de-l-argent-a-la-banque-pret-personnel-ou-concept-de-soutien-financier-illustration-moderne-vectorielle-plate-2rfk7ya.jpeg"
+                width="50%" height="500px" alt="">
         </div>
         <div class="merde">
-            <h2>Prêt personnel en ligne : 
+            <h2>Prêt personnel en ligne :
                 votre crédit instantané chez Mkfinance
             </h2>
-            <span>Réaliser une demande express et obtenez une réponse définitive en moins de 24h pour votre prêt personnel</span>
-            <select name="objet" id="">
-                <option value="">Financement pour votre entreprise / crédit personnel</option>
-                <option value="">mobilier</option>
-                <option value="">crédit immobilier</option>
-                <option value="">Trésorerie</option>
-            </select>
-            <select name="Montant" id="">
-                <option value="">au moins 100000f</option>
-                <option value="">au moins 100000f</option>
-                <option value="">au moins 100000f</option>
-                <option value="">au moins 100000f</option>
-                <option value="">au moins 100000f</option>
-                <option value="">au moins 100000f</option>
-                <option value="">au moins 100000f</option>
-                <option value="">au moins 100000f</option>
-                <option value="">au moins 100000f</option>
-            </select>
-            <select name="Duré du prêt" id="">
-                <option value="">6 mois</option>
-                <option value="">12 mois</option>
-                <option value="">24 mois</option>
-                <option value="">36 mois</option>
-                <option value="">48 mois</option>
-                <option value="">60 mois</option>
-                <option value="">72 mois</option>
-            </select>
-            <input type="button" value="Enregistrer votre demande">
+            <span>Réaliser une demande express et obtenez une réponse définitive en moins de 24h pour votre prêt
+                personnel</span><br><br>
+            <form class="formulaire">
+                <select name="categorie" id="" required>
+                    <option value="" disabled selected>veuillez selectionner une categorie</option>
+                    <option>mobilier</option>
+                    <option>crédit immobilier</option>
+                    <option>Trésorerie</option>
+                    <option>Financement pour votre entreprise / crédit personnel</option>
+                </select>
+                <select name="montant" id="" required>
+                    <option value="" disabled selected>veuillez selectionner un montant</option>
+                    <option value="100000">au moins 100000f</option>
+                    <option value="200000">au moins 200000f</option>
+                    <option value="300000">au moins 300000f</option>
+                    <option value="400000">au moins 400000f</option>
+                    <option value="500000">au moins 500000f</option>
+                    <option value="600000">au moins 600000f</option>
+                    <option value="700000">au moins 700000f</option>
+                    <option value="800000">au moins 800000f</option>
+                    <option value="900000">au moins 900000f</option>
+                </select>
+                <select name="duree" id="" required>
+                    <option value="" disabled selected>veuillez selectionner la durée</option>
+                    <option value="6">6 mois</option>
+                    <option value="12">12 mois</option>
+                    <option value="24">24 mois</option>
+                    <option value="36">36 mois</option>
+                    <option value="48">48 mois</option>
+                    <option value="60">60 mois</option>
+                    <option value="72">72 mois</option>
+                </select><br><br>
+                <input type="submit" value="Enregistrer votre demande">
+            </form>
             </div>
+        
         </div>
 
         <section class="mard">
             <div class="txt">
-                <span>les avantagges d'un prêt chez mkfinances</span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, reiciendis! Illo corrupti cumque rerum aspernatur quaerat eos quia dolor eaque repudiandae non impedit libero harum, recusandae, aliquid porro laudantium neque! Sit esse libero doloribus ut quo aliquid amet possimus perferendis autem! Laborum, placeat ea libero sint fugiat alias? Veritatis dolor, hic consectetur cum rem veniam accusamus aliquam vitae nisi corrupti dolorem in similique atque magnam saepe, laborum voluptatibus numquam cupiditate totam optio voluptas neque commodi. Alias in quae eum quam rerum est corporis laboriosam quaerat provident voluptas officia illo quibusdam sunt ipsam, culpa aliquid a quo consequatur amet omnis accusantium!
+                <h4>Les Avantages D'un Prêt Chez Mkfinances</h4>
+                <p>
 
-
+                    L'un des grands avantages du financement par l'emprunt est la possibilité de rembourser les dettes à
+                    coût élevé, réduisant ainsi les paiements mensuels de centaines, voire de milliers d'euros. La
+                    réduction du coût du capital augmente ainsi la trésorerie de l'entreprise.
                 </p>
             </div>
         </section>
-        <section>
+        <section class="bonsoir">
             <h4>Votre prêt chez mkfinances</h4>
-            <table>
-                <tr>
-                    <th>Projet </th>
-                    <th>montant du prêt</th>
-                    <th>duré du credit</th>
-                    <th>taux d'appel</th>
-                    <th>delai de reponse</th>
-                    <th>type de credit</th>
-                </tr>
-                <tr>
-                    <td>prêt Personnel</td>
-                    <td>100000fr à 900000fr</td>
-                    <td>6 à 72 mois</td>
-                    <td>a partir de 0.1%taeg fixe</td>
-                    <td>reponse definitive en moins de 24h </td>
-                    <td>amortissable</td>
-                </tr>
+            <table class="tableau">
+                <thead>
+                    <tr>
+                        <th>Projet </th>
+                        <th>Montant du prêt</th>
+                        <th>Duré du credit</th>
+                        <th>Taux d'appel</th>
+                        <th>Delai de reponse</th>
+                        <th>Type de credit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>prêt Personnel</td>
+                        <td>100000fr à 900000fr</td>
+                        <td>6 à 72 mois</td>
+                        <td>a partir de 0.1%taeg fixe</td>
+                        <td>reponse definitive en moins de 24h </td>
+                        <td>amortissable</td>
+                    </tr>
+                </tbody>
+                
+                
             </table>
         </section>
-            <section>
-                <div class="image">
-                    <img src="../dossier_css/images/67441171.jpeg" width="100px" alt="">
-                    <img src="../dossier_css/images/67441171.jpeg"  width="100px" alt="">
-                    <img src="../dossier_css/images/67441171.jpeg"  width="100px" alt="">
+        <section>
+            <div class="image">
+                <img src="../dossier_css/images/67441171.jpeg" width="100px" alt="">
+                <img src="../dossier_css/images/67441171.jpeg" width="100px" alt="">
+                <img src="../dossier_css/images/67441171.jpeg" width="100px" alt="">
+            </div>
+
+
+            <div class="textes">
+                <div class="txt1">
+                    <p>Demande en ligne 100% en ligne</p>
+                    <span>complétez le formulaire de demande et signez votre contrat en ligne , aussi bien depuis votre
+                        ordinateur, votre mobile ou votre tablette</span>
+
                 </div>
-
-
-                <div class="textes">
-                    <div class="txt1">
-                        <p>Demande en ligne 100% en ligne</p>
-                        <span>complétez le formulaire de demande et signez votre contrat en ligne , aussi bien depuis votre ordinateur, votre mobile ou votre tablette</span>
-    
-                    </div>
-                   <div class="txt2">
+                <div class="txt2">
                     <p>Crédit instantané!</p>
-                    <span>Réaliser une demande express et obtener une reponse en moins de 24h pour votre offre personnel. rapide et simple</span>
+                    <span>Réaliser une demande express et obtener une reponse en moins de 24h pour votre offre
+                        personnel. rapide et simple</span>
 
-                   </div>
-                   <div class="txt3">
-                        <p>plateforme sécurisée</p>
-                        <span>Mkfinance vous garantit une forte protection de vos données personnelles</span>
-                   </div>
-                    
                 </div>
-            </section>
+                <div class="txt3">
+                    <p>plateforme sécurisée</p>
+                    <span>Mkfinance vous garantit une forte protection de vos données personnelles</span>
+                </div>
 
-            <section>
-                <div class="ddef">
-                    <div class="definition">
-                        <p>c'est quoi un prêt personnel?</p>
-                        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi sit molestiae, ipsam dolorem est voluptatum possimus minus amet dolore quos maiores reprehenderit tempore, debitis aut atque provident aspernatur quia voluptatem. Dignissimos porro, velit vero accusamus quos reiciendis, eum qui nemo numquam eaque magnam eveniet deserunt fuga tempora error harum vel ab nam maxime debitis molestiae, quis distinctio! Atque mollitia, suscipit amet possimus, beatae et temporibus repudiandae ullam ducimus quaerat enim rem aspernatur? Sunt ad praesentium labore dignissimos ipsum iusto quidem expedita vitae fugit. Quas perferendis blanditiis quisquam delectus sequi inventore! Eius aspernatur molestias doloribus quis possimus voluptate iusto veritatis facere!</span>
-    
-                    </div>
-                  <div class="avantage">
+            </div>
+        </section>
+
+        <section>
+            <div class="ddef">
+                <div class="definition">
+                    <p>c'est quoi un prêt personnel?</p>
+                    <span>En définition, le prêt personnel est un crédit à la consommation non affecté à un achat
+                        spécifique. À cet effet, le montant emprunté par le biais de ce type de financement peut être
+                        utilisé pour de multiples achats (auto, moto, immobilier, travaux, voyage,…).
+
+                        De ce fait, il n’est pas nécessaire de présenter à la banque une facture d’achat, ce qui est
+                        d’usage pour les emprunts affectés. Comme son nom l’indique, le crédit affecté est un prêt qui
+                        permet de réaliser exclusivement un projet déterminé : achat auto, travaux,…</span>
+
+                </div>
+                <div class="avantage">
                     <p>quels sont les avantages du prêt personnel?</p>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione molestias explicabo aut optio accusamus, ea ad, molestiae adipisci, animi voluptate itaque at! Optio facilis voluptate ipsa incidunt suscipit officiis aliquid vero dolor libero illum exercitationem veritatis, a mollitia, corrupti, repellat tempora magnam omnis! Pariatur ad odit voluptate beatae quod molestiae reiciendis mollitia voluptatibus officia unde sed deserunt dolorum distinctio optio dolorem aperiam, numquam laudantium quas quia impedit velit, autem saepe ea. Debitis tempore amet sunt adipisci aliquam delectus dolorum at beatae est non dolorem perferendis officiis eius minima earum quod, fuga odit. Vitae corporis repellat facilis magnam? Ducimus, quos eum.</span>
+                    <span>Au regard des emprunteurs, l’obtention d’un prêt personnel permet de bénéficier d’une somme
+                        d’argent au juste prix à taux compétitif. Auprès de la plateforme 100% digitale de Mkfinance,
+                        les taux d’intérêts se positionnent parmi les plus compétitifs sur le marché pour un montant
+                        compris entre 1 00000 et 900 000 francs cfa.
 
-                  </div>
-                   <div class="perso">
-                    <p> ou peut on faire un prêt personnel?</p>
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime odio necessitatibus laborum reiciendis est, rerum vitae ipsum ad dolores asperiores explicabo quibusdam doloribus repudiandae ullam quas sit delectus hic repellat excepturi sequi! Obcaecati maxime officiis aliquid eligendi eos aliquam laborum beatae vitae inventore cumque fugit quod aperiam cum velit sint qui enim voluptatum blanditiis, tempore explicabo architecto quas. Veritatis necessitatibus placeat dicta incidunt quas voluptatem ratione veniam nihil voluptatum exercitationem? Eveniet nam quibusdam deserunt quaerat vero necessitatibus numquam a vel? Obcaecati sint adipisci ratione aliquid nam eos reprehenderit numquam dignissimos culpa modi molestias, praesentium sit rem dicta sunt hic nobis?</span>
+                        Dans cette optique, les prêts proposés sont à taux fixes, exclusivement amortissables, avec des
+                        mensualités constantes et sans frais cachés. Par ailleurs, la plateforme de crédit pour
+                        particuliers fait appel à des technologies d’analyse des demandes d’emprunts qui permettent de
+                        financer un projet en un temps record.
 
-                   </div>
-                  
+                    </span>
 
-                        <div class="condition">
-                            <p>3 conditions clés pour obtenir un prêt personnel en ligne rapide</p>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat doloremque, voluptatibus numquam laboriosam animi vel doloribus cupiditate velit, dicta nihil vitae quidem adipisci, dolorem soluta atque exercitationem! Maiores iusto earum, aspernatur exercitationem dignissimos, eum blanditiis fugiat, nihil explicabo quaerat itaque. Non odit architecto natus corporis, voluptate iusto ipsum adipisci quia. Vero, eius? Maxime iure animi molestiae totam assumenda neque eum labore, quasi illo tempora, nam aliquam eaque nostrum suscipit architecto earum similique? Pariatur deleniti beatae nobis ad nemo minima aspernatur blanditiis optio, iusto accusantium error est modi mollitia maxime sapiente voluptate asperiores tempore a commodi harum, reprehenderit nihil autem. Adipisci.</span>
-                            <p>les informations à fournies obligatoirements par le prêteurs  </p>
-                            <span class="bonj">dans leur offre , les etablissements financiers sont de leur côté tenus de faire mention notamment : 
-                             <li>de l'identité et de l'adreses du prêteurs;</li>
-                             <li>de la durée du contract;</li>
-                             <li>du type de crédit conso;</li>
-                             <li>du montant total dû;</li>
-                             <li>des conditions de mise à disposition de la somme empruntée;</li>
-                             <li>du cout total des frais</li>
-                             <li>de l'existence d'un délai;</li>
-                             <li>des indémnités à payer en cas de retard de paiements.</li>
-                            </span>
-                            <h5>Autant d'informations qui permettent au demandeur de savoir si le crédit est adapté à sa situation financière</h5>
-
-                        </div>
-                  
                 </div>
-            </section>
+                <div class="perso">
+                    <p> ou peut on faire un prêt personnel?</p>
+                    <span>De façon concrète, il est possible de faire un prêt personnel aussi bien auprès d’une banque
+                        ou d’un organisme financier spécialisé dans les prêts d’argent. Quel que soit le choix du
+                        souscripteur, le remboursement de la somme d’argent empruntée s’effectue de manière classique
+                        chaque mois.En termes de durée, le coût des mensualités du prêt varie selon le montant de
+                        l’emprunt et les capacités financières du demandeur, selon les conditions stipulées dans le
+                        contrat. À titre indicatif, les mensualités évoluent également en fonction de 4 principaux
+                        critères :
 
-            <section>
-                <h2>Ils nous fait confiance </h2>
-                <p>les avis de nos clients sur le prêt personnel</p>
-            </section>
-<!-- younited -->
-            <!-- <form>
+                        Montant total du crédit.
+                        Durée du financement.
+                        TAEG (Taux Annuel Effectif Global).
+                        Coût de l’assurance emprunteur facultative, le cas échéant. </span>
+
+                </div>
+
+
+                <div class="condition">
+                    <p>3 conditions clés pour obtenir un prêt personnel en ligne rapide</p>
+                    <span>Pour obtenir un prêt personnel en ligne rapide, il est indispensable de répondre à plusieurs
+                        conditions préalables. L’objectif de la banque est d’avoir la garantie que le prêt d’argent peut
+                        être honoré sans difficulté, jusqu’au terme de la période de remboursement.
+
+                        Dans la limite du cadre légal du crédit à la consommation, ces conditions sont déterminées par
+                        les établissements bancaires de manière autonome. Pour augmenter ses chances d’obtenir un avis
+                        favorable à sa demande de crédit, il est tout de même possible de déterminer 3 conditions clés
+                        analysées de façon systématique dans leur globalité :
+
+                        Situation personnelle : âge, situation familiale (personne seule, mariée, pacsée, enfants à
+                        charge,...), souscripteur locataire ou propriétaire,...
+                        Situation professionnelle : type de contrat de travail (CDI, CDD, intérim,...), statut
+                        professionnel, montant des revenus du foyer,...
+                        Situation financière : habitudes bancaires, utilisation d’un découvert autorisé, incidents
+                        bancaires, autres emprunts en cours,...</span>
+                    <p>les informations à fournies obligatoirements par le prêteurs </p>
+                    <span class="bonj">Dans leur offre , les etablissements financiers sont de leur côté tenus de faire
+                        mention notamment :
+                        <li>de l'identité et de l'adreses du prêteurs;</li>
+                        <li>de la durée du contract;</li>
+                        <li>du type de crédit conso;</li>
+                        <li>du montant total dû;</li>
+                        <li>des conditions de mise à disposition de la somme empruntée;</li>
+                        <li>du cout total des frais</li>
+                        <li>de l'existence d'un délai;</li>
+                        <li>des indémnités à payer en cas de retard de paiements.</li>
+                    </span>
+                    <h5>Autant d'informations qui permettent au demandeur de savoir si le crédit est adapté à sa
+                        situation financière</h5>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="label">
+            <h2>Ils nous fait confiance </h2>
+            <p>les avis de nos clients sur le prêt personnel</p>
+
+            <div class="com">
+                <div class="culo">
+                    <img src="../dossier_css/images/istockphoto-1171169099-612x612.jpeg" width="100%" height="40%"
+                        alt="">
+                    <p>Didier <br>
+                        ⭐⭐⭐⭐⭐
+                    </p>
+
+                    <span>"Notre demande de crédit à été traitée très rapidement et nous avons été agréablement surpris
+                        du versement de trésorerie en moins d'une semaine."</span>
+
+
+
+                    <div class="bit">
+                        Vendredi 31 juillet 2020
+                    </div>
+                </div>
+                <div class="cuj">
+                    <img src="../dossier_css/images/oui-1024x476.jpeg" width="100%" height="40%" alt="">
+                    <p>Anne-Marie <br>
+                        ⭐⭐⭐⭐⭐
+
+                    </p>
+                    <span>"J'ai fait appel à Mkfinance car j'avais un besoin urgent d'une petite trésorerie. J'ai été
+                        très surprise de la simplicité et de la rapidité avec laquelle mon dossier a été constitué.
+                        L'accord et les fonds ont été virés en un temps record. Je recommande Mkfinance"</span>
+                    <div class="bit">Jeudi 27 août 2020</div>
+                </div>
+            </div>
+        </section>
+        <!-- younited -->
+        <!-- <form>
                 <label>Vos revenus nets mensuels :</label>
                 <input type="text" name="" id=""><br>
                 <label for="">Vos revenus nets mensuels:</label>
@@ -232,14 +327,16 @@
                <input type="button" value=" Enregistrer"> 
             </form>
          -->
-               
-        
-       
 
-        
-         
-                
+
+
+
+
+
+
 
     </section>
 </body>
+<script src="../javascript/pret.js"></script>
+
 </html>

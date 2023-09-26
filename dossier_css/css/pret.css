@@ -60,8 +60,8 @@ margin-right: 10px;
     
 }
 
-.containt{
-    width: 20px;
+li{
+   width: 100px;
 
 }
 
@@ -106,10 +106,6 @@ margin-right: 10px;
     font-size: 1em
 }
 
-#menu-accordeon li li a{
-  
-   
-}
  
 #menu-accordeon ul li a, #menu-accordeon li:hover li a {
    
@@ -126,8 +122,49 @@ margin-right: 10px;
   #menu-accordeon li:hover li {
     
     max-height: 20em;
-  }
+  } 
+
+  /* li {
+    list-style:none ; /*On enlève les puces de la liste */
+    /* color:#FFF;
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    } */
+     
+    /* #menu-accordeon ul {
+    background-color:#64abfb;
+   
+    }
+     
+    #menu-accordeon ul li {
+   
+    background-color:#64abfb;
+    }
+     
+    #menu-accordeon ul li a {
+    color:#FFF;
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    }
+     
+    li a:hover {
+    border-bottom:3px #FFF solid;
+    }
+    
+    #menu-accordeon ul li ul { 
+    /* display:none; Rend le menu déroulant caché par défaut */
+    /* } 
+     
+    #menu-accordeon ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+    
+    /* display:block; */
+   
+    
+   
   
+
 .corps{
     padding-top: 70px;
 }
@@ -138,8 +175,45 @@ margin-right: 10px;
 }
 .merde{
     width: 100vw;
-   
+   height: 200px;
     background-color: grey;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+.merde h2{
+    text-align: center;
+    justify-content: center;
+}
+.merde span{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.merde select {
+    padding: 5px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+   margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+   align-items: center;
+}
+
+.merde select:focus {
+    outline: none;
+}
+.merde input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background-color: #B594FD;
+    color: #fff;
+    border: none; 
 }
 table{
     border-collapse: collapse;
@@ -149,6 +223,44 @@ th,td{
     border: 1px solid black;
     padding: 10px;
 }
+/* section */
+
+.mard{
+    margin-top: 50px;
+   text-align: center;
+}
+.txt{
+   text-align: justify;
+   width: 400px;
+   justify-content: center;
+   margin: 0 auto;
+}
+.txt h4{
+    text-decoration: underline;
+}
+.txt p{
+    padding-top: 20px;
+    
+}
+/* section */
+.bonsoir{
+    margin-top: 50px;
+    
+}
+.bonsoir h4{
+    text-align: center;
+    text-decoration: underline;
+}
+.bonsoir .tableau {
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+
+
+
 /* section */
 .image{
     margin: 0 auto;
@@ -178,9 +290,7 @@ th,td{
 .ddef{
     margin-top: 100px;
 }
-.ddef p{
-    text-decoration: underline;
-}
+
 
 .definition{
     width: 400px;
@@ -191,10 +301,14 @@ th,td{
     font-size: 1rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
+.definition p{
+    text-transform: uppercase;
+    padding-top: 30px;
+    text-decoration: underline;
+}
 .definition span{
     font-size: 0.8rem;
-    padding-top: 250px;
+    margin-top: 50px;
 
 }
 .avantage{
@@ -206,7 +320,14 @@ th,td{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
-
+.avantage p{
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    
+}
 .avantage span{
     font-size: 0.8rem;
 
@@ -214,20 +335,25 @@ th,td{
 .perso{
    
     width: 400px;
-    height: 400px;
+    height: 350px;
     background-color: #B594FD;
     float: left;
     margin-left: 50px;
     font-size: 1rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+.perso p{
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
 .perso span{
     font-size: 0.8rem;
-
+    margin-top: 50px;
 }
 
 .condition{
-    padding-top: 600px;
+    padding-top: 500px;
    
 }
 .condition p{
@@ -243,6 +369,53 @@ margin: 0 auto;
 .condition .bonj{
     display: block;
 }
+.condition li{
+   width: 500px;
+}
 .condition h5{
     text-align: center;
+}
+/* section */
+
+.label{
+    margin-top: 50px;
+    text-align: center;
+   
+}
+.label p{
+    padding: 30px;
+}
+.com{
+    display: flex;
+    justify-content: space-evenly;
+ 
+   
+}
+
+.culo{
+    width: 300px;
+    height: 500px;
+    background-color: #eeecf3;
+    text-align: justify;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.culo p{
+    text-align: center;
+}
+.cuj{
+    width: 300px;
+    height: 500px;
+    background-color: #eeecf3;
+    text-align: justify;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.cuj p{
+    text-align: center;
+    
+    
+}
+.bit{
+    text-align: center;
+    margin-top: 40px;
+    text-decoration: underline;
 }
