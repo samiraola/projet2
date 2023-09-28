@@ -1,4 +1,3 @@
-
 *, ::before, ::after{
     margin: 0;
     padding: 0;
@@ -107,62 +106,21 @@ li{
 }
 
  
-#menu-accordeon ul li a, #menu-accordeon li:hover li a {
-   
-  }
+
 #menu-accordeon li li:hover {
    
      background: #B594FD;
-  }
+}
 
-  #menu-accordeon ul li:last-child {
+#menu-accordeon ul li:last-child {
      border-radius: 0 0 6px 6px;
      border:none;
-  }
-  #menu-accordeon li:hover li {
+}
+#menu-accordeon li:hover li {
     
     max-height: 20em;
-  } 
+} 
 
-  /* li {
-    list-style:none ; /*On enlève les puces de la liste */
-    /* color:#FFF;
-    padding:10px;
-    font-size:20px;
-    text-decoration:none;
-    } */
-     
-    /* #menu-accordeon ul {
-    background-color:#64abfb;
-   
-    }
-     
-    #menu-accordeon ul li {
-   
-    background-color:#64abfb;
-    }
-     
-    #menu-accordeon ul li a {
-    color:#FFF;
-    padding:10px;
-    font-size:20px;
-    text-decoration:none;
-    }
-     
-    li a:hover {
-    border-bottom:3px #FFF solid;
-    }
-    
-    #menu-accordeon ul li ul { 
-    /* display:none; Rend le menu déroulant caché par défaut */
-    /* } 
-     
-    #menu-accordeon ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
-    
-    /* display:block; */
-   
-    
-   
   
 
 .corps{
@@ -287,77 +245,22 @@ th,td{
     width: 200px;
 }
 /* section */
-.ddef{
-    margin-top: 100px;
-}
-
-
-.definition{
-    width: 400px;
-    height: 350px;
-    
-    background-color: #B594FD;
-    float: left;
-    font-size: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-.definition p{
-    text-transform: uppercase;
-    padding-top: 30px;
-    text-decoration: underline;
-}
-.definition span{
-    font-size: 0.8rem;
-    margin-top: 50px;
-
-}
-.avantage{
-    width: 400px;
-    height: 350px;
-    background-color: #B594FD;
-    float: right;
-    font-size: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
-}
-.avantage p{
-    text-decoration: underline;
-    text-transform: uppercase;
-    margin-top: 30px;
-    text-align: center;
-    justify-content: center;
-    
-}
-.avantage span{
-    font-size: 0.8rem;
-
-}
-.perso{
-   
-    width: 400px;
-    height: 350px;
-    background-color: #B594FD;
-    float: left;
-    margin-left: 50px;
-    font-size: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-.perso p{
-    text-decoration: underline;
-    text-transform: uppercase;
-    padding-top: 30px;
-}
-.perso span{
-    font-size: 0.8rem;
-    margin-top: 50px;
-}
 
 .condition{
-    padding-top: 500px;
+    padding-top: 100px;
    
+}
+.condition span:hover{
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    justify-content: center;
+    border: 2px solid grey;
+    
 }
 .condition p{
     text-align: center;
+    text-decoration: underline;
 }
 .condition span{
 text-align: justify;
@@ -365,6 +268,7 @@ padding: 5px 10px 50px 130px;
 display: flex;
 justify-content: center;
 margin: 0 auto;
+width: 70%;
 }
 .condition .bonj{
     display: block;
@@ -402,6 +306,10 @@ margin: 0 auto;
 .culo p{
     text-align: center;
 }
+
+.culo span{
+    font-size: 0.8rem;
+}
 .cuj{
     width: 300px;
     height: 500px;
@@ -410,9 +318,11 @@ margin: 0 auto;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .cuj p{
-    text-align: center;
-    
-    
+    text-align: center; 
+}
+
+.cuj span{
+    font-size: 0.8rem;
 }
 .bit{
     text-align: center;

@@ -306,10 +306,10 @@ h1{
 /* section nav */
 .nav{
     width: 100vw;
-    height: 400px;
+    height: 300px;
    margin: 20px;
    padding: 5px 100px;
-   background-color: #00000060;
+   background-color: grey;
    border-radius: 5px;
    box-shadow:  rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; 
     margin: 0 auto;
@@ -348,23 +348,21 @@ h1{
     margin-left: -150px;
 }
 .nav .button-5{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .avant_footer{
     width: 100vw;
-    height: 500px;
+    height: 250px;
     background-color: #1B0E41;
 }
 .fouter{
     width: 70%;
     height: 250px;
     background-color: #B594FD;
-    border-radius: 5px;
+   
     box-shadow:  rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; 
    margin: 0 auto;
-  position: absolute;
-  margin-top: 100px;
- margin-left: 150px;
+ text-align: center;
    
    
 }
@@ -432,5 +430,40 @@ h1{
   box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
   transform: translateY(0);
 }
+/* fooetr */
+.foot{
+    width: 100vw;
+    height: 100px;
+    background-color: grey;
+   padding-top: 30px;
+   margin-top: 50px;
+   
+}
+.fat{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 5px 100px;
+
+}
+.fat .imgs{
+    display: block;
+
+}
+
+
+.class button{
+    width: 130px;
+ height: 30px;
+ border-radius: 5px;
+ outline: none;
+ cursor: pointer;
+ background-color: #B594FD;
+ color: #fff;
+ border: none; 
+ 
+
+}
+
 
 
