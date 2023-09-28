@@ -211,9 +211,10 @@ border-bottom: 5px solid #B594FD;
 .care .image{
     width: 100%;
     height: 60%;
-   background-image: url(/dossier_css/images/Demarrer-son-business-quels-outils-numeriques--TW.jpeg);
+   background-image: url(/dossier_css/images/ateliers-journee-securite-des-risques-prof-7xs760we69.kkmREl05CO.jpg);
    background-size: cover;
    background-repeat: no-repeat;
+   background-position: center center;
 }
 .care .text{
     height: 30%;
@@ -233,12 +234,13 @@ border-bottom: 5px solid #B594FD;
     background-color: #1B0E41;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
-.care2 .image{
+.care2 .image1{
     width: 100%;
     height: 60%;
-   background-image: url(/dossier_css/images/Demarrer-son-business-quels-outils-numeriques--TW.jpeg);
+   background-image: url(/dossier_css/images/baniere-ulule.eoxrMK6tSc.jpeg);
    background-size: cover;
    background-repeat: no-repeat;
+   background-position: center center;
 }
 .care2 .text{
     height: 30%;
@@ -257,12 +259,13 @@ border-bottom: 5px solid #B594FD;
     background-color: #1B0E41;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
-.care3 .image{
+.care3 .image3{
     width: 100%;
     height: 60%;
    background-image: url(/dossier_css/images/Demarrer-son-business-quels-outils-numeriques--TW.jpeg);
    background-size: cover;
    background-repeat: no-repeat;
+   background-position: center center;
 }
 .care3 .text{
     height: 30%;

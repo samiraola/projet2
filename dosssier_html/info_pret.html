@@ -55,33 +55,34 @@
 
 
 <section class="info">
-    <form action="">
+    <form class="formulaire" enctype="multipart/form-data">
 
         <label for="">Adresse</label><br>
-        <input type="text" class="chex"><br> 
+        <input type="text" class="chex" required><br> 
         <label for="">Domaine d'activité</label><br>
-        <input type="text" class="chex"  name="" id=""><br>
+        <input type="text" class="chex"  name="activite" id="" required><br>
         <label for="">Revenus mensuel</label><br>
-        <input type="text" class="chex"      name="" id=""><br>
+        <input type="text" class="chex"      name="revenusMensuel" id="" required><br>
 
         <label for="">Situation familiale</label><br>
         
-        <span>personne seul</span><input  type="checkbox" name="" id=""><br>
-           <span>marié</span> <input  type="checkbox" name="" id=""><br>
-           <span>enfant à charge</span> <input  type="checkbox" name="" id=""><br>
-           <span>locataire</span> <input  type="checkbox" name="" id=""><br>
-            <span>proprietaire</span><input  type="checkbox" name="" id=""><br>
+        <span>personne seul</span><input  type="radio"  name="matrimoniale" value="celibataire" id="" required><br>
+           <span>marié</span> <input  type="radio" name="matrimoniale" id="" value="marie" required><br>
+           <span>Avec enfant</span> <input  type="radio" name="enfant" id="" value="avec enfnat" required><br>
+           <span>sans enfant</span> <input  type="radio" name="enfant" id="" value="sans enfant" required><br>
+           <span>locataire</span> <input  type="radio" name="locataire" value="locataire" id="" required><br>
+            <span>proprietaire</span><input  type="radio" name="locataire" value="proprietaire" required><br>
     
         <label for="">Statut professionel</label><br>
-        <select name="" id="" required><br>
+        <select  name="fonction" required><br>
             <option value="" disabled selected>veuillez selectionner le stauts</option>
-            <option value="">Travail à son compte</option>
-            <option value="">Travail dans une entreprise</option>
-            <option value="">Recherche travail</option>
-            <option value=""> Au chomage</option>
+            <option value="Travail à son compte">Travail à son compte</option>
+            <option value="Travail dans une entreprise">Travail dans une entreprise</option>
+            <option value="Recherche travail">Recherche travail</option>
+            <option value="Au chomage"> Au chomage</option>
         </select><br>
         <label for="">Déposer une piece d'identité </label><br>
-        <input type="file" name="" id=""><br>
+        <input type="file" name="carteId" required><br>
         <button class="button-5" role="button" type="submit">Soumettre</button>
 
 
@@ -130,6 +131,6 @@
 </section>
 
 
-
+<script src="../javascript/info_pret.js"></script>
 </body>
 </html>

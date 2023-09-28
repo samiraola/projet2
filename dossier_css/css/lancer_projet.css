@@ -1,55 +1,63 @@
-
 *, ::before, ::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  
 }
-body{
-    width: 100vw;
-    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  
+  
+#haaaa{
+    display: none;
 }
-
-
-nav ul {
-    padding: 5px 100px;
-    width: 100vw;
+  
+.navbar{
+    width: 100%;
     height: 70px;
     background-color: #1B0E41;
+    list-style: none;
+    display: flex;
+    padding: 5px 100px;
     position: fixed;
     border: 1px solid #000;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-   list-style: none;
-  display: flex;
-   color: white;
-   line-height: 50px;
-}
-.premiere-nav :nth-child(6){
-    margin-left: auto;
-}
-span{
-    
-    font-size: 25px;
-   
-}
-.liste-nav{
-    
-    margin: 0 20px;
-}
-.liste-nav a{
-    text-decoration: none;
     color: white;
 }
-
-.liste-nav a:hover{
+  
+.element1{
+    position: relative;
+    background-color: #1B0E41;
+    font-size: 25px;
+    top: -22px;
+}
+.element1 a{
+    position: relative;
+    top: 35px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+  .premiere-nav{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+  }
+  
+  .liste-nav a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .liste-nav a:hover{
    color: #B594FD;
     text-decoration: underline;
-}
-
-.rech{
-  
-margin-right: 10px;
-}
-.rech input{
+  }
+  .rech{
+    position: relative;
+    top: -5px;
+    left: 40px;
+    
+  }
+  .rech .recher{
     width: 200px;
     height: 30px;
     border: none;
@@ -58,68 +66,315 @@ margin-right: 10px;
     outline: none;
    
     
-}
-
-.containt{
-    width: 20px;
-
-}
-
-
-.containt #menu-accordeon li li:hover ul{
-    display: block;
-}
-#menu-accordeon{
-    
-    padding:0;
-    margin:0;
-   
-}
-
-.containt #menu-accordeon ul:hover{
-    padding:0;
-    margin:0;
-    list-style:none;
-   display: block;
-   
-}
-
-#menu-accordeon li {
-    
-     background-image:-webkit-linear-gradient(top, #000 100%);
-     background-image: linear-gradient(to bottom, #000 100%);
+  }
+  .element2{
     background-color: #1B0E41;
+    width: 80%;
+    height: 70px;
+    position: relative;
+    top: -22px;
   
-}
-#menu-accordeon li li {
-   
-     margin:0
-}
+  }
+  .element2 a{
+    font-size: 15px;
+    position: relative;
+    top: -1px;
+    left: -50px;
   
-#menu-accordeon a {  
+  }
+  ul li a{
+    color: white;
     text-decoration: none;
-    color: #fff;
-    padding: 8px 0;
-    font-size: 1em
-}
-
-
-#menu-accordeon li li:hover {
-   
-     background: #B594FD;
-}
-
-#menu-accordeon ul li:last-child {
-     border-radius: 0 0 6px 6px;
-     border:none;
-}
-#menu-accordeon li:hover li {
-    
-    max-height: 20em;
-
-}
+    padding-left: 3rem;
   
+  }
+  
+  .bergb{
+    width: 50px;
+    height: 30px;
+    
+    position: relative;
+    top: 20px;
+    left: 99%;
+    display: block;
+    cursor: pointer;
+  } 
+  .bergb input{
+    display: none;
+  }
+  .bergb .hgfd{
+    display: none;
+  }
+  .hgfd{
+    visibility: hidden;
+    opacity: 1;
+    position: fixed;
+    right: 10px;
+    width: 100%;
+  
+  }
+  
+  .hgfd li a{
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .hgfd li{
+    list-style-type: none;
+    margin-left: 50px;
+  }
+  .hgfd li:hover{
+    
+    color: #fff;
+    text-decoration: underline;
+  }
+  #berg:checked ~ .hgfd{
+    visibility: visible;
+    display: block;
+    width: 20%;
+    height: 100px;
+    z-index: 1;
+    top: 75px;
+    text-align: justify;
+    background-color: #1B0E41;
+  }
+  .element3{
+    width: 16%;
+    height: 70px;
+    overflow: hidden;
+    position: relative;
+    top: -22px;
+  
+}
+  .element3 a{
+    position: relative;
+    top: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  
+}
 
+@media screen and (min-width:200px) and (max-width:688px) {
+  
+    .navbar{
+      width: 100%;
+      height: 70px;
+      background-color: #1B0E41;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      padding-top: 20px;
+    }
+    
+    
+    .element1{
+      position: relative;
+      background-color: #1B0E41;
+      width: 25%;
+      height: 70px;
+      font-size: 20px;
+      top: -22px;
+    }
+    .element1 a{
+      position: relative;
+      top: 20px;
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      left: -15px;
+    }
+    .premiere-nav{
+      list-style: none;
+      display: flex;
+      width: 100%;
+      padding-top: 5px;
+      
+    }
+    
+    .liste-nav a{
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+    }
+    
+    .liste-nav a:hover{
+     color: #B594FD;
+      text-decoration: underline;
+    }
+    .rech{
+      position: relative;
+      top: 105px;
+      left: -100px;
+      
+    }
+    .rech .recher{
+      width: 150px;
+      height: 30px;
+      border: none;
+      border-radius: 30px;
+      background: #eeecf3;
+      outline: none;
+     
+      
+    }
+    .element2{
+      background-color: #1B0E41;
+      width: 30%;
+      height: 70px;
+      position: relative;
+      top: -22px;
+      right: 25px;
+    
+    }
+    .element2 a{
+      font-size: 15px;
+      position: relative;
+      top: -1px;
+      left: -50px;
+    
+    }
+    ul li a{
+      color: white;
+      text-decoration: none;
+      padding-left: 3rem;
+    
+    }
+    
+    .bergb{
+      width: 50px;
+      height: 30px;
+      background-color: #1B0E41;
+      position: relative;
+      top: 10px;
+      left: 90%;
+      display: block;
+    } 
+    .bergb input{
+      display: none;
+    }
+    .bergb .hgfd{
+      display: none;
+    }
+    .hgfd{
+      visibility: hidden;
+      opacity: 1;
+      position: fixed;
+      right: 10px;
+      width: 100%;
+    
+    }
+    
+    .hgfd li a{
+      text-decoration: none;
+      font-size: 20px;
+    }
+    .hgfd li{
+      list-style-type: none;
+    
+    }
+    #berg:checked ~ .hgfd{
+      visibility: visible;
+      display: block;
+      width: 25%;
+      height: 100px;
+      z-index: 1;
+      top: 80px;
+      padding-left: -80px;
+      background-color: #1B0E41;
+    }
+    .element3{
+      width: 16%;
+      height: 70px;
+      overflow: hidden;
+      position: relative;
+      top: -22px;
+    
+    }
+    .element3 a{
+      position: relative;
+      top: 25px;
+      font-size: 20px;
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+    
+    }
+    
+    
+    
+    .tout{
+      height: 300px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    
+    }
+    .tout img{
+      position: relative;
+      height: 300px;
+    }
+    .open{
+      width: 100%;
+      height: 30px;
+      background-color: #1B0E41;
+      text-align: center;
+      color: #ffffff;
+      font-size: 23px;
+    }
+    body{
+      
+    
+    }
+    .paw{
+      width: 60%;
+      height: 300px;
+      background-color: grey;
+      margin: 0 auto;
+     border-radius: 10px;
+     position: relative;
+     top: 30px;
+     padding: 30px;
+     justify-content: center;
+     text-align: center;
+    }
+    
+    button{
+      width: 80%;
+      height: 30px;
+      background-color: #000000;
+      border: none;
+    
+    }
+    button a{
+      text-decoration: none;
+      color: #ffffff;
+    }
+    
+    
+    .paw  input{
+      width: 80%;
+      height: 30px;
+      margin-top: 5px;
+      margin: 5px;
+     
+    } 
+    .bouton{
+      cursor: pointer;
+    }
+    label{
+      color: aliceblue;
+    }
+    
+    #bbbbb{
+      display: none;
+    }
+    #haaaa{
+      display: block;
+      position: relative;
+      left: 20%;
+    
+    }
+    
+    } 
+  
   
 /*section projet*/
 
@@ -358,3 +613,4 @@ padding-top: 50px;
  color: #fff;
  border: none; 
 }
+

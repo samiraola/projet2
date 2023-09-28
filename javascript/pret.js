@@ -18,4 +18,5 @@ formulaire.addEventListener("submit",event=>{
     categorie.value="";
     montant.value="";
     duree.value="";
+    window.location.href="../dosssier_html/info_pret.html"
 })
