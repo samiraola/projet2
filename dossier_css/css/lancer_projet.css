@@ -203,14 +203,14 @@
     .rech{
       position: relative;
       top: 105px;
-      left: -100px;
+      left: -150px;
       
     }
     .rech .recher{
       width: 150px;
       height: 30px;
       border: none;
-      border-radius: 30px;
+      border-radius: 20px;
       background: #eeecf3;
       outline: none;
      

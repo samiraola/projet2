@@ -199,7 +199,7 @@ form .chex{
     height: 100px;
     background-color: grey;
    padding-top: 30px;
-   
+   margin-top: 50px;
 }
 .fat{
     display: flex;
