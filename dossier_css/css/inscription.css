@@ -8,7 +8,22 @@ body{
     font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
    
 }
-
+.bouton{
+    width: 50%;
+    height: 35px;
+    height: 30px;
+    border-radius: 20px;
+   
+    background: #B594FD;
+   display: flex;
+   margin-left: 50px;
+   justify-content: center;
+   align-items: center;
+  margin-top: 20px;
+  text-decoration: none; 
+  color: white;
+    
+}
 .container{
     width: 300px;
     height: 600px;
@@ -48,21 +63,7 @@ body{
    
 } 
 
-.classe .a2{
-    width: 100px;
-    height: 30px;
-    border-radius: 20px;
-   
-    background: #B594FD;
-   display: flex;
-   margin-left: 50px;
-   justify-content: center;
-   align-items: center;
-  margin-top: 20px;
-  text-decoration: none; 
-  color: white;
-  
-}
+
 span{
     color: white;
     display: flex;

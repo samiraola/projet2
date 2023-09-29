@@ -1,11 +1,136 @@
 *, ::before, ::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body{
-    width: 100vw;
+background-color: rgba(255, 255, 255, 0.658);
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+form{
+width: 100%;
+height: 600px;
+justify-content: center;
+text-align: center;
+display: flex;
+}
+.corps{
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.pag{
+  width: 80%;
+  height:400px;
+  position: relative;
+  background-color: #5f49a027;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 5px;
+  position: relative;
+  top: 70px;
+ 
+}
+.pag .cri{
+  text-align: center;
+  position: relative;
+  top: 50px;
+  width: 50%;
+  height: 280px;
+  left: 40%;
+  background-color: #514085b7;
+  border-radius: 15px;
+}
+.pag span{
+  display: flex;
+  justify-content: center;
+
+  color:rgb(255, 255, 255);
+  font-size: 25px;
+}
+.pag input{
+  margin-top: 20px;
+  width: 200px;
+  height: 40px;
+  border: none;
+ text-align: center;
+ background-color: #25145896;
+ color: white;
+
+ 
+}
+.pag input::placeholder{
+ color: white;
+}
+
+
+.button-5{
+  width: 19%;
+  height: 32px;
+  top: 10px;
+  border: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #000000;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  position: relative;
+  text-decoration: none;
+  touch-action: manipulation;
+}
+form{
+  position: relative;
+  bottom: 152px;
+}
+.button-5:hover,
+.button-5:focus {
+  background-color: #433461;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #B594FD;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+.button-5 a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.pag .content img{
+  width: 30%;
+  height: 260px;
+  border-radius: 5px;
+  position: relative;
+  bottom: 250px;
+  right:  32%;
+}
+
+
+@media screen and (min-width:575px)  and (max-width:1041px){
+body{
+  background-color: rgba(57, 0, 83, 0.658);
     font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+form{
+  width: 100%;
+  height: 600px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
 }
 .corps{
     display: flex;
@@ -13,33 +138,40 @@ body{
     margin-top: 200px;
 }
 .pag{
-    width: 100%;
-    height:400px;
-    background-color: #1B0E41;
+    width: 70%;
+    height:500px;
+    position: relative;
+    background-color: #5f49a027;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     border-radius: 5px;
+    position: relative;
+    top: 70px;
    
 }
 .pag .cri{
     text-align: center;
-   margin-top: 50px;
-   margin-left: 200px;
-   
+    position: relative;
+    top: 50px;
+    width: 50%;
+    left: 25%;
+    height: 400px;
+    background-color: #503f81c2;
+    border-radius: 15px;
 }
 .pag span{
     display: flex;
     justify-content: center;
-    color:white;
-    font-size: 25px;
+
+    color:rgb(255, 255, 255);
+    font-size: 20px;
 }
 .pag input{
     margin-top: 20px;
-    width: 200px;
+    width: 75%;
     height: 40px;
-   border-top: none;
-   border-left: none;
-   border-right: none;
-   background-color: #1B0E41;
+    border: none;
+   text-align: center;
+   background-color: #25145896;
    color: white;
 
    
@@ -47,16 +179,18 @@ body{
 .pag input::placeholder{
    color: white;
 }
-.pag button{
- 
-}
 
 
 .button-5{
+    width: 44%;
+    height: 32px;
+    top: 10px;
+    border: none;
+    text-align: center;
+    justify-content: center;
     align-items: center;
     background-clip: padding-box;
-    background-color: #000;
-    border: 1px solid transparent;
+    background-color: #000000;
     border-radius: .25rem;
     box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
     color: #fff;
@@ -65,25 +199,17 @@ body{
     font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 1rem;
     font-weight: 600;
-    justify-content: center;
-    line-height: 1.25;
-    margin: 0;
-    min-height: 3rem;
-    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
     position: relative;
     text-decoration: none;
-    transition: all 250ms;
-    user-select: none;
-    -webkit-user-select: none;
     touch-action: manipulation;
-    vertical-align: baseline;
-    width: auto;
-  margin-top: 50px;
   }
-  
+  form{
+    position: relative;
+    bottom: 152px;
+  }
   .button-5:hover,
   .button-5:focus {
-    background-color: #B594FD;
+    background-color: #433461;
     box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
   }
   
@@ -102,9 +228,121 @@ body{
   }
   
 
-.pag .content img{
-    width: 30%;
-    height: 380px;
+.pag .content {
+  display: none;
+}
+}
+
+
+@media screen and (min-width:275px)  and (max-width:577px){
+body{
+  background-color: rgba(57, 0, 83, 0.658);
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+form{
+  width: 100%;
+  height: 600px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+.corps{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.pag{
+    width: 80%;
+    height:500px;
+    position: relative;
+    background-color: #5f49a027;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     border-radius: 5px;
-    margin-top: -300px;
+    position: relative;
+    top: 70px;
+   
+}
+.pag .cri{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    width: 80%;
+    left: 10%;
+    height: 400px;
+    background-color: #503f81c2;
+    border-radius: 15px;
+}
+.pag span{
+    display: flex;
+    justify-content: center;
+
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+.pag input{
+    margin-top: 20px;
+    width: 75%;
+    height: 40px;
+    border: none;
+   text-align: center;
+   background-color: #25145896;
+   color: white;
+
+   
+}
+.pag input::placeholder{
+   color: white;
+}
+
+
+.button-5{
+    width: 44%;
+    height: 32px;
+    top: 10px;
+    border: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #000000;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+    touch-action: manipulation;
+  }
+  form{
+    position: relative;
+    bottom: 152px;
+  }
+  .button-5:hover,
+  .button-5:focus {
+    background-color: #433461;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  
+  .button-5:hover {
+    transform: translateY(-1px);
+  }
+  
+  .button-5:active {
+    background-color: #B594FD;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+  }
+  .button-5 a{
+    text-decoration: none;
+    color: white;
+  }
+  
+
+.pag .content {
+  display: none;
+}
 }

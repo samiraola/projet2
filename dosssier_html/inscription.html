@@ -11,17 +11,17 @@
         <div class="container">
             <h3>S'inscrire</h3>
             <div class="bat">
-                <div class="over">
-                    <p>Nom et prenom</p>
-                    <input type="text" ><br>
+                <div class="over" >
+                    <p id="nom">Nom et prenom</p>
+                    <input type="text" id="nom" ><br>
                 </div>
                 <div class="over">
-                    <p>Email</p>
-                    <input type="email" name="" id=""><br>
+                    <p class="email">Email</p>
+                    <input type="email" name="" id="email"><br>
                 </div>
                 <div class="over">
                     <p>Mot de passe</p>
-                    <input type="password" name="" id="" > <br>
+                    <input type="password" class="passe" name="passe" id="passe" > <br>
                 </div>
                 <div class="over">
                     <p>Contact</p>
@@ -30,7 +30,7 @@
                 <div class="over">
                     <p>Sexe </p>
                     <input list="sexe"> 
-                    <datalist id="sexe">
+                        <datalist id="sexe">
                         <option value="Homme"></option>
                         <option value="Femme"></option>
                       
@@ -39,7 +39,7 @@
                 <div class="over">
                     <p>Pays</p>
                     <input list="pays"> 
-                    <datalist id="pays">
+                        <datalist id="pays">
                         <option value="Côte d'ivoire"></option>
                         <option value="Sénégal"></option>
                         <option value="Mali"></option>
@@ -48,11 +48,12 @@
                 </div>
             </div>
             <div class="classe">
-                <a class="a2"  href="">Connexion</a></li>
+                <input class="bouton" type="submit" value="Inscription">
             </div>
            
             
               
     </section>
+    <script src="../javascript/inscription.js"></script>
 </body>
 </html>
